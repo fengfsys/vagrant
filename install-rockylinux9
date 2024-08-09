@@ -1,0 +1,6 @@
+install VirtualBox
+install Vagrant
+mkdir rockylinux9
+cd rockylinux9
+vagrant init bento/rockylinux-9.0
+vagrant up
